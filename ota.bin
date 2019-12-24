@@ -31,7 +31,7 @@ void loop() {
   // wait for WiFi connection
   if ((WiFi.status() == WL_CONNECTED)) {
 
-    t_httpUpdate_return ret = ESPhttpUpdate.update("https://github.com/Akram12911/Esp32bin/new/master/ota.bin");
+    t_httpUpdate_return ret = ESPhttpUpdate.update("https://github.com/Akram12911/Esp32bin/blob/master/ota.bin");
 
     switch (ret) {
       case HTTP_UPDATE_FAILED:
