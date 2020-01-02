@@ -1,2 +1,2 @@
-version:3
+version:5
 URL:https://raw.githubusercontent.com/Akram12911/Esp32bin/master/merge_ota.ino.esp32.bin
